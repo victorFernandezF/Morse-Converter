@@ -1,9 +1,9 @@
-# Morse-Converter
+# :black_circle: :heavy_minus_sign: Morse Converter
 ## Info
 ### Descrition
 A little program to convert a single word to morse code.
 
-### Tecnology
+### language
 Python
 
 ### status
