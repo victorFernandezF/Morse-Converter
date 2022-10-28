@@ -1,8 +1,8 @@
 # :black_circle: :heavy_minus_sign: Morse Converter
 ## Info
 ### Descrition
-Are you trying to send an s.o.s message in morse code?
-Don´t worry that little progrram tells you the correct dots and dashes for your message.
+Are you trying to send an s.o.s message in morse code?   
+Don´t worry that little progrram tells you the correct dots and dashes for your message.   
 This program converts any single word (the user enters) to morse code.
 
 ### language
