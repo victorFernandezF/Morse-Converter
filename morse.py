@@ -1,59 +1,39 @@
 from ast import If
 from tkinter import *
 from tkinter import ttk
-
-# create a dictionary with the translations
-# of each letter and number.
-
-morse = dict(
-    a = '. -',
-    b = '— · · ·',
-    c = '— · — ·',
-    ch = '— — — —',
-    d = '— · ·',
-    e = '.',
-    f = '· · — ·',
-    g = '— — ·',
-    h = '· · · ·',
-    i = '. .',
-    j = '· — — —',
-    k = '— · —',
-    l = '· — · ·',
-    m = '— —',
-    n = '— ·',
-    ñ = '— — · — —',
-    o = '— — —',
-    p = '. — — .',
-    q = '— — · —',
-    r = '· — ·',
-    s = '·  · ·',
-    t = '—',
-    u = '· · —',
-    v = '· · · —',
-    w = '· — —',
-    x = '— · · —',
-    y = '— · — —',
-    z = '— — · ·'
-    )
+import morse_dict
 
 win= Tk()
 
 #Set the size of the windows.
 win.geometry("750x150")
 
+def check_ch(text):
+    if text == 'h':
+        return 'h'
+    return 0
+
 # Function that convert text in morse
 def display_text():
     global entry
     string= entry.get()
     res = ""
-    check = 0
-    for i in string:
-        if i == ' ':
-            res = "Solo una palabra por favor"
-            check = 1
-        if check == 0:
-            res = res + morse[i]
-            res = res + "  "
+    j = 1
+    i = 0
+    if string == 'sos':
+        info.configure(text="¿Estas bien?")
+    
+    while(i < len(string)):
+        if string[i] == 'c' and string[i +1] and string[i + 1] == 'h':
+            res = res + morse_dict.morse['ch']
+            res = res + '   '
+            i += 1
+        elif string[i] == '':
+            res = "Solo una palabra, por favor."
+        else:
+            res = res + morse_dict.morse[string[i]]
+            res = res + '   '
+        i=i+1
     label.configure(text=res)
 
 #Label info
@@ -66,7 +46,7 @@ entry.focus_set()
 entry.pack()
 
 # Empty label where the translation will be shown.
-label=Label(win, text="", font=("Courier 17"))
+label=Label(win, text="", font=("Courier 12"))
 label.pack()
 
 #Create a Button witch calls the function.
