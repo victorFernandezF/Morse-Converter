@@ -20,6 +20,8 @@ def check_sign(c):
         return 'inter'
     if c == '/':
         return 'slash'
+    if c == '"':
+        return 'quot'
     return 0
 
 # Function that convert text in morse
