@@ -43,5 +43,6 @@ morse_letter = dict(
     dot = '· — · — · —',
     slash = '— · · — ·',
     inter = '· · — — · ·',
-    comma = '— — · · — —'
+    comma = '— — · · — —',
+    quot = '· — · · — ·'
     )
