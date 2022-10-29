@@ -1,9 +1,9 @@
-# :black_circle: :heavy_minus_sign: Morse Converter
-## Info
+# :black_circle: :heavy_minus_sign: Morse Code Translator
+## Info [:gb:]
 ### Descrition
 Are you trying to send an s.o.s message in morse code?   
 Don´t worry that little program tells you the correct dots and dashes for your message.   
-This program converts any single word (the user enters) to morse code.
+Morse Code Translator converts any single word (the user inserts) to morse code.
 
 ### language
 Python
@@ -14,7 +14,7 @@ All characters in the morse code alphabet are now allowed.
 ### installation
 > - Download the morse.exe
 > - Double click morse.exe
->  - Enjoy
+> - Enjoy
 
 ### Usage
 > The user writes a word in the box, and then press the button.   
