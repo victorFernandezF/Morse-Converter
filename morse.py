@@ -7,14 +7,10 @@ win= Tk()
 
 #Set the size of the windows.
 win.geometry("750x150")
-
-def check_ch(text):
-    if text == 'h':
-        return 'h'
-    return 0
+win.title("Morse Translator")
 
 # Function that convert text in morse
-def display_text():
+def traslate():
     global entry
     string= entry.get()
     res = ""
@@ -25,13 +21,13 @@ def display_text():
     
     while(i < len(string)):
         if string[i] == 'c' and string[i +1] and string[i + 1] == 'h':
-            res = res + morse_dict.morse['ch']
+            res = res + morse_dict.morse_letter['mch']
             res = res + '   '
             i += 1
         elif string[i] == '':
             res = "Solo una palabra, por favor."
         else:
-            res = res + morse_dict.morse[string[i]]
+            res = res + morse_dict.morse_letter['m'+string[i]]
             res = res + '   '
         i=i+1
     label.configure(text=res)
@@ -50,6 +46,6 @@ label=Label(win, text="", font=("Courier 12"))
 label.pack()
 
 #Create a Button witch calls the function.
-ttk.Button(win, text= "Okay",width= 20, command= display_text).pack(pady=20)
+ttk.Button(win, text= "TRADUCIR",width= 20, command= traslate).pack(pady=20)
 
 win.mainloop()

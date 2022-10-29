@@ -9,7 +9,7 @@ This program converts any single word (the user enters) to morse code.
 Python
 
 ### status
-In progress: numbers are not allowed yet.
+In progress: Signs not allow yet.
 
 ### installation
 > - Download the morse.exe
