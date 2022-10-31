@@ -3,7 +3,7 @@
 ### Descrition
 Are you trying to send an s.o.s message in morse code?   
 Don´t worry that little program tells you the correct dots and dashes for your message.   
-Morse Code Translator converts any single word (the user inserts) to morse code.
+Morse Code Translator converts words to morse code.
 
 ### language
 Python
@@ -27,7 +27,7 @@ All characters in the morse code alphabet are now allowed.
 ### Descripción
 ¿Esta intentando mandar un mensaje s.o.s en código morse pero no sabe cómo?
 No se preocupe, con este pequeño programa podrá hacerlo.
-Morse Code Translator traduce cualquier palabra (introducida por el usuario) a código morse.
+Morse Code Translator traduce tu mensaje a código morse.
 
 ### lenguaje
 Python
@@ -42,5 +42,5 @@ Todos los caracteres del alfabeto morse están permitidos.
 > - Disfrute.
 
 ### ¿Cómo usar?
-> El usuario debe introducir una palabra en el cuadro de texto.   
+> El usuario debe introducir una oración en el cuadro de texto.   
 > El programa hará el resto.
