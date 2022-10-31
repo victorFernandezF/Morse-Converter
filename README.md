@@ -21,6 +21,11 @@ All characters in the morse code alphabet are now allowed.
 > The user writes a word or sentence in the box, and then press the button.   
 > The program will do all the work and show the result.
 
+### Image
+
+<img src="Screenshot.webp" alt="Morse-code-translator" width="400px"/>
+
+
 <hr/>
 
 ## Informacion [:es:]
@@ -44,3 +49,7 @@ Todos los caracteres del alfabeto morse están permitidos.
 ### ¿Cómo usar?
 > El usuario debe introducir unapalabrra u oración en el cuadro de texto.   
 > El programa hará el resto.
+
+### Imagen
+
+<img src="Screenshot.webp" alt="Morse-code-translator" width="400px"/>
