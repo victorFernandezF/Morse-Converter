@@ -43,4 +43,4 @@ Todos los caracteres del alfabeto morse están permitidos.
 
 ### ¿Cómo usar?
 > El usuario debe introducir una palabra en el cuadro de texto.   
-> The program hará el resto.
+> El programa hará el resto.
