@@ -9,7 +9,7 @@ Morse Code Translator converts words to morse code.
 Python
 
 ### status
-**Characters allowed:** alphanumeric, spaces and some signs (.,?/")
+**Allowed Characters:** alphanumeric, spaces and some signs (.,?/")
 
 ### installation
 > - Download the morse.exe
