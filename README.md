@@ -1,6 +1,6 @@
 # :black_circle: :heavy_minus_sign: Morse Code Translator
 ## Info [:gb:]
-### Descrition
+### Description
 Are you trying to send an s.o.s message in morse code?   
 Don´t worry that little program tells you the correct dots and dashes for your message.   
 Morse Code Translator converts words to morse code.
