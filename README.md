@@ -18,7 +18,7 @@ All characters in the morse code alphabet are now allowed.
 > - Enjoy
 
 ### Usage
-> The user writes a word in the box, and then press the button.   
+> The user writes a word or sentence in the box, and then press the button.   
 > The program will do all the work and show the result.
 
 <hr/>
@@ -42,5 +42,5 @@ Todos los caracteres del alfabeto morse están permitidos.
 > - Disfrute.
 
 ### ¿Cómo usar?
-> El usuario debe introducir una oración en el cuadro de texto.   
+> El usuario debe introducir unapalabrra u oración en el cuadro de texto.   
 > El programa hará el resto.
