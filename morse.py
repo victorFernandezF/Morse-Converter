@@ -7,7 +7,7 @@ import morse_dict
 win= Tk()
 
 #Set the window.
-win.geometry("750x350")
+win.geometry("750x410")
 win.title("Morse Code Translator")
 
 # Check if is a sign and returns the key
@@ -34,7 +34,7 @@ def traslate():
     space = ' '
     i = 0
     string = string.lower()
-    if string == 'sos':
+    if string == "sos":
         info.configure(text="ARE YOU OKAY?")
     while(i < len(string) - 1):
         aux = check_sign(string[i])
@@ -44,7 +44,7 @@ def traslate():
             break
         elif (aux == 'sp'):
             res += ' / '
-            dash_info.pack()
+            dash_info.configure(text="( / is the separator between words)")
         elif aux != 0:
             res += morse_dict.morse_letter[aux]
             res += space
@@ -57,18 +57,24 @@ def traslate():
             res = res + space
         i = i + 1
     result.configure(state='normal')
-    result.delete(1.0,END)
+    result.delete(1.0, END)
     result.insert(INSERT, res)
     result.configure(state='disabled')
     if string != 'sos':
         info.configure(text="MORSE CODE TRANSLATOR")
 
+def restart():
+    entry.delete(1.0, END)
+    result.configure(state='normal')
+    result.delete(1.0, END)
+    result.configure(state='disabled')
+    info.configure(text="MORSE CODE TRANSLATOR")
 #Label with the name
 info=Label(win, text="MORSE CODE TRANSLATOR", font=("Helvetica 18 bold"))
 info.pack()
 
 # Info label
-enter=Label(win, text="Insert your text here", font=("arial 10"))
+enter=Label(win, text="Insert your text here:", font=("arial 12"))
 enter.pack()
 
 # Entry where user enters a word
@@ -77,17 +83,19 @@ entry.focus_set()
 entry.pack()
 
 # Info label
-lres=Label(win, text="Your result:", font=("arial 10"))
+lres=Label(win, text="Your result:", font=("arial 12"))
 lres.pack()
-dash_info=Label(win, text="(/ is the separator between words)", font=("arial 10"))
+dash_info=Label(win, text="", font=("arial 10"))
 dash_info.pack()
-dash_info.pack_forget()
 
 # Textarea for the result
-result = Text(win, width="60", height="7", state='disabled', font=("arial 9"))
+result = Text(win, width="47", height="7", state='disabled', font=("arial 12"))
+result.config(background="gainsboro")
 result.pack();
 
 #Create a Button witch calls the function.
-ttk.Button(win, text= "TRANSLATE",width= 20, command= traslate).pack(pady=5)
+ttk.Button(win, text= "TRANSLATE",width=70, command= traslate).pack(pady=5)
 
+# Button witch restart.
+ttk.Button(win, text= "RESET",width= 70, command= restart).pack(pady=5)
 win.mainloop()
