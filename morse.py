@@ -57,6 +57,7 @@ def traslate():
             res = res + space
         i = i + 1
     result.configure(state='normal')
+    result.config(background="white")
     result.delete(1.0, END)
     result.insert(INSERT, res)
     result.configure(state='disabled')
@@ -91,7 +92,7 @@ dash_info.pack()
 # Textarea for the result
 result = Text(win, width="47", height="7", state='disabled', font=("arial 12"))
 result.config(background="gainsboro")
-result.pack();
+result.pack()
 
 #Create a Button witch calls the function.
 ttk.Button(win, text= "TRANSLATE",width=70, command= traslate).pack(pady=5)
