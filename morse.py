@@ -70,6 +70,7 @@ def restart():
     result.delete(1.0, END)
     result.configure(state='disabled')
     info.configure(text="MORSE CODE TRANSLATOR")
+    result.config(background="gainsboro")
 #Label with the name
 info=Label(win, text="MORSE CODE TRANSLATOR", font=("Helvetica 18 bold"))
 info.pack()
