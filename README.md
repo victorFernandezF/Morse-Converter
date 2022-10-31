@@ -9,8 +9,7 @@ Morse Code Translator converts words to morse code.
 Python
 
 ### status
-All characters in the morse code alphabet are now allowed.
-(a-z, 0-9, '.' ',' '?' '/')
+**Characters allowed:** alphanumeric, spaces and some signs (.,?/")
 
 ### installation
 > - Download the morse.exe
@@ -38,8 +37,7 @@ Morse Code Translator traduce tu mensaje a código morse.
 Python
 
 ### Estado
-Todos los caracteres del alfabeto morse están permitidos.
-(a-z, 0-9, '.' ',' '?' '/')
+**Caracteres admitidos:** alfanuméricos, espacios y algunos sognos (.,?/")
 
 ### instalación
 > - Descargue el ejecutable morse.exe desde este repositorio.
