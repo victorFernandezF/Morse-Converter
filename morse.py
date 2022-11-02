@@ -25,9 +25,23 @@ def check_sign(c):
     if c == ' ':
         return 'sp'
     return 0
+def morse_to_text():
+    global entry
+    string= entry.get("1.0",END)
+    word = ""
+    res = ""
+    i = 0
+    for i in string:
+        if i != ' ':
+            word += i
+        else:
+            res = res + morse_dict.morse_to_letter[word]
+            word = ""
+    print(res)
+
 
 # Function that convert text in morse
-def traslate():
+def translate():
     global entry
     string= entry.get("1.0",END)
     res = ""
@@ -96,7 +110,7 @@ result.config(background="gainsboro")
 result.pack()
 
 #Create a Button witch calls the function.
-ttk.Button(win, text= "TRANSLATE",width=70, command= traslate).pack(pady=5)
+ttk.Button(win, text= "TRANSLATE",width=70, command= translate).pack(pady=5)
 
 # Button witch restart.
 ttk.Button(win, text= "RESET",width= 70, command= restart).pack(pady=5)
