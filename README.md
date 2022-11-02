@@ -11,6 +11,9 @@ Python
 ### status
 **Allowed Characters:** alphanumeric, spaces and some signs (.,?/")
 
+### Coming Soon
+Morse code to text translator.
+
 ### installation
 > - Download the morse.exe
 > - Double click morse.exe
@@ -38,6 +41,9 @@ Python
 
 ### Estado
 **Caracteres admitidos:** alfanuméricos, espacios y algunos sognos (.,?/")
+
+### Proximamente
+Traductor de código morse a texto.
 
 ### instalación
 > - Descargue el ejecutable morse.exe desde este repositorio.
