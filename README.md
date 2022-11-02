@@ -4,6 +4,7 @@
 Are you trying to send an s.o.s message in morse code?   
 Don´t worry that little program tells you the correct dots and dashes for your message.   
 Morse Code Translator converts words to morse code.
+Now it is posible to translate morse code to text.
 
 ### language
 Python
@@ -11,8 +12,6 @@ Python
 ### status
 **Allowed Characters:** alphanumeric, spaces and some signs (.,?/")
 
-### Coming Soon
-Morse code to text translator.
 
 ### installation
 > - Download the morse.exe
@@ -25,7 +24,7 @@ Morse code to text translator.
 
 ### Image
 
-<img src="Screenshot.webp" alt="Morse-code-translator" width="400px"/>
+<img src="screenshot.jpg" alt="Morse-code-translator" width="400px"/>
 
 
 <hr/>
@@ -35,15 +34,13 @@ Morse code to text translator.
 ¿Esta intentando mandar un mensaje s.o.s en código morse pero no sabe cómo?
 No se preocupe, con este pequeño programa podrá hacerlo.
 Morse Code Translator traduce tu mensaje a código morse.
+Ahora tambien se puede traducir de código morse a texto.
 
 ### lenguaje
 Python
 
 ### Estado
 **Caracteres admitidos:** alfanuméricos, espacios y algunos sognos (.,?/")
-
-### Proximamente
-Traductor de código morse a texto.
 
 ### instalación
 > - Descargue el ejecutable morse.exe desde este repositorio.
@@ -56,4 +53,4 @@ Traductor de código morse a texto.
 
 ### Imagen
 
-<img src="Screenshot.webp" alt="Morse-code-translator" width="400px"/>
+<img src="screenshot.jpg" alt="Morse-code-translator" width="400px"/>
