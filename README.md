@@ -12,6 +12,10 @@ Python
 ### status
 **Allowed Characters:** alphanumeric, spaces and some signs (.,?/")
 
+### Clone Repository
+~~~~
+  git clone https://github.com/victorFernandezF/Morse-code-translator.git   
+~~~~
 
 ### installation
 > - Download the morse.exe
@@ -41,6 +45,11 @@ Python
 
 ### Estado
 **Caracteres admitidos:** alfanuméricos, espacios y algunos sognos (.,?/")
+
+### Clonar Repositorio
+~~~~
+  git clone https://github.com/victorFernandezF/Morse-code-translator.git   
+~~~~
 
 ### instalación
 > - Descargue el ejecutable morse.exe desde este repositorio.
